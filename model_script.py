@@ -26,6 +26,12 @@ model = Model("FootballTeamTransfersOptimization")
 
 # OPTIGUIDE DATA CODE GOES HERE
 
+#Include team player
+for player_id in player_to_be_included:
+    player_info = players_data[players_data['player_id'] == player_id].iloc[0]
+    BUDGET -= player_info['market_value_in_eur']
+    position = player_info['position']
+    NEEDS[team_var][position] -= 1
 
 #Exclude team player
 if players_to_be_excluded:
