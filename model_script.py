@@ -2,7 +2,7 @@ from gurobipy import Model, GRB, quicksum
 import pandas as pd
 
 # Cleaned dataset with pre-calculated performance metric
-data_path = '/Users/niharikapatil/Documents/Academics/Fall Semester 2023/DABP/Final Project/data/final_merged.csv' #Replace data path here
+data_path = 'https://raw.githubusercontent.com/gmoellering/dabp/main/final_merged.csv' #Replace data path here
 players_data = pd.read_csv(data_path)
 
 #Constraint variables
