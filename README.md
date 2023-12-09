@@ -44,7 +44,7 @@ Overall, we were pleased with Optiguide and our model’s performance. It did fa
 Our raw data was too extensive to host on GitHub, but the final cleaned dataset `final_merged.csv ` is included here along with the jupyter notebook containing our data cleaning process - `data_cleaning.ipynb`. 
 
 The `model_script.py` contains the code that is the input for our OptiGuide notebooks listed below - please read each notebook in the following order:
-* optiguide_pt1.ipynb
-* optiguide_pt2.ipynb
+* `optiguide_pt1.ipynb`
+* `optiguide_pt2.ipynb`
 
 Our OptiGuide questions spanned two notebooks as both were used to iterate and test the consistencies of our answers.  The html versions of these files will serve as links to our Appendix 1, which contains the links to and transcripts of the chat.
