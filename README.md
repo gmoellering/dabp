@@ -12,9 +12,6 @@ Football, or soccer in the U.S. and Canida, is one of the most popular sports in
 
 Our analysis draws inspiration from the problem made famous in Moneyball, the book by Micahel Lewis that narrates how a Major League Baseball team overcame the competitive gap between rich and poor teams by identifying undervalued players with underappreciated performance metrics that could significantly contribute to their team’s success. This report uses data from the European Football Transfer market to conduct a similar analysis for a hypothetical European football club, using an optimization model to help determine which players they should target as trade prospects under given constraints. 
 
-**Keywords:**
-basketball, ncaa championship, march madness, brackets
-
 **Question:**
 As a General Manager of the FC Tartan Soccer club with a budget of 150 million Euros, which athletes should I focus on acquiring given my team’s budget, position needs, and the pool of available players?
 
